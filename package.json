@@ -1,0 +1,18 @@
+{
+  "name": "ifx-js-testing",
+  "version": "1.0.0",
+  "description": "IFX JS Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/karma start --single-run"
+  },
+  "author": "Dominik Ehrenberg",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-junit-reporter": "^1.1.0"
+  }
+}
